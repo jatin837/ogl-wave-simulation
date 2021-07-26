@@ -1,18 +1,3 @@
-/*****************************************************************************
- * Wave Simulation in OpenGL
- * (C) 2002 Jakob Thomsen
- * http://home.in.tum.de/~thomsen
- * Modified for GLFW by Sylvain Hellegouarch - sh@programmationworld.com
- * Modified for variable frame rate by Marcus Geelnard
- * 2003-Jan-31: Minor cleanups and speedups / MG
- * 2010-10-24: Formatting and cleanup - Camilla Löwy
- *****************************************************************************/
-
-#if defined(_MSC_VER)
- // Make MS math.h define M_PI
- #define _USE_MATH_DEFINES
-#endif
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
