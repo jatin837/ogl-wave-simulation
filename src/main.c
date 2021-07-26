@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "include/glad/gl.h"
+#include "../include/glad/gl.h"
 #define GLFW_INCLUDE_NONE
-#include "include/GLFW/glfw3.h"
+#include "../include/GLFW/glfw3.h"
 
-#include "include/linmath.h"
+#include "../include/linmath.h"
 
 // Maximum delta T to allow for differential calculations
 #define MAX_DELTA_T 0.01
